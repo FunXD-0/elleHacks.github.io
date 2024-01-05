@@ -1,8 +1,13 @@
-<<<<<<< Updated upstream
-import test from './Assets/circle-128.png';
-import './App.css';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image';
+import test from '../assets/logo.png';
+import "./MeetTheTeam.css"
 
-function App() {
+function MeetTheTeam() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,14 +15,14 @@ function App() {
         </div><div class="team" />
 
         <h2 class="team-heading">
-          Meet Our Team <span class="backslash-purple"></span>
+          Meet Our Team 
         </h2>
 
         <div class="grid co-chairs">
           <div class="team-member">
             <a href="google.com" target="_blank" rel="noreferrer">
               <div class="image">
-                <a href="https://www.linkedin.com/in/visalithiru/" target="_blank" rel="noreferrer">
+                <a href="google.com" target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -27,7 +32,7 @@ function App() {
           </div>
           <div class="team-member">
             <div class="image">
-              <a href="https://www.linkedin.com/in/aarushi-sabharwal/" target="_blank" rel="noreferrer">
+              <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
               </a></div>
@@ -36,7 +41,7 @@ function App() {
           </div>
           <div class="team-member">
             <div class="image">
-              <a href="https://www.linkedin.com/in/ayana-s/" target="_blank" rel="noreferrer">
+              <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
               </a></div>
@@ -48,7 +53,7 @@ function App() {
             <div class="grid lms-exe" />
             <div class="team-member">
               <div class="image">
-                <a href="http://linkedin.com/in/surpreet-sarai" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -57,7 +62,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/baileyluu/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -66,7 +71,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/muskanpurohitt/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -75,7 +80,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/triya-augustine/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -84,7 +89,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/manali-bisht-b85003240/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -93,7 +98,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/erikagrandy/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -102,7 +107,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/lisette-verzijlenberg/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -122,7 +127,7 @@ function App() {
           <div class="executives">
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/reshma-menon-66b915158/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -131,7 +136,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/anusha-narraidoo/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -140,7 +145,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/anusha-narraidoo/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -149,7 +154,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/anusha-narraidoo/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -158,7 +163,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/johanotoka/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -167,7 +172,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/hasti-ghaneshirazi/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -176,7 +181,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/luanamadeira/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -185,7 +190,7 @@ function App() {
             </div>
             <div class="team-member">
               <div class="image">
-                <a href="https://www.linkedin.com/in/heet-narechania-b9b13913a/" target="_blank" rel="noreferrer">
+                <a href="google.com"  target="_blank" rel="noreferrer">
                   <img class="team-img" src={test} alt="test" />
                   <img class="team-img-fun" src={test} alt="test"/>
                 </a></div>
@@ -240,33 +245,5 @@ function App() {
     </div>
   );
 }
-export default App;
-=======
-import './App.css'
-import Hello from './components/Hello.js';
-import Home from './components/Home.js';
-import NavBar from './components/NavBar.js';
-import AboutUs from './components/AboutUs.js';
-import JoinUS from './components/JoinUS.js';
-import MeetTheTeam from './components/MeetTheTeam.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
-;
 
-function App() {
-  return (
-    <div className="App">
-       <NavBar />
-       <Home />
-       <AboutUs/>
-       <MeetTheTeam/>
-       <JoinUS />;
-      <Hello />
-    </div>
-
-
-
-  );
-}
-
-export default App;
->>>>>>> Stashed changes
+export default MeetTheTeam;
