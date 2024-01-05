@@ -4,6 +4,7 @@ import Home from './components/Home.js';
 import NavBar from './components/NavBar.js';
 import AboutUs from './components/AboutUs.js';
 import JoinUS from './components/JoinUS.js';
+import MeetTheTeam from './components/MeetTheTeam.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 ;
 
@@ -13,6 +14,7 @@ function App() {
        <NavBar />
        <Home />
        <AboutUs/>
+       <MeetTheTeam/>
        <JoinUS />;
       <Hello />
     </div>
