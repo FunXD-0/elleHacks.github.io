@@ -1,5 +1,4 @@
 
-// JoinUs.js
 import React, { Component } from 'react';
 import Yellow from "../assets/Yellow.png";
 import Red from "../assets/Red.png";
@@ -61,8 +60,8 @@ class JoinUS extends Component {
         color: '#FFF',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', // Align items at the center
-        textAlign: 'center', // Center text horizontally
+        alignItems: 'center', 
+        textAlign: 'center',
       };
       
       const cardStyleMentor = {
@@ -75,8 +74,8 @@ class JoinUS extends Component {
         color: '#FFF',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', // Align items at the center
-        textAlign: 'center', // Center text horizontally
+        alignItems: 'center', 
+        textAlign: 'center', 
       };
       
       const cardStyleVolunteer = {
@@ -89,17 +88,14 @@ class JoinUS extends Component {
         color: '#FFF',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', // Align items at the center
-        textAlign: 'center', // Center text horizontally
+        alignItems: 'center', 
+        textAlign: 'center',
       };
 
     return (
       <>
-        {/* Join Us Section */}
         <div id="joinus" style={joinUsStyle}>
           <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold">Join Us</h1>
-
-          {/* Main Content Grid */}
           <div className="container">
             <CardGroup className="text-center">
               <Card style={cardStyleMentor}>
