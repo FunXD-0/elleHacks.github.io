@@ -44,7 +44,9 @@ var x = setInterval(function() {
     } else {
         document.getElementById("timer").innerHTML =
                 "<span style='font-size:20px;vertical-align: middle;text-align: center; color:#ffffff;'>"
-                + "Opening soon"
+
+                + "Applications are open"
+
                 + "</span>";
     }
   }

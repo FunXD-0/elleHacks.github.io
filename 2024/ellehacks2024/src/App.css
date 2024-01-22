@@ -1,90 +1,7 @@
 
-
-/* @Hasti 'Meet The Team' section start */
-
-a {
-  text-decoration: none;
-}
-
-.team {
-  padding: 50px;
-  width: 100%;
-  margin: 0 auto;
-  font-family: 'DM Sans';
-  color: black;
-}
-
-.team-heading {
-  display: inline;
-  font-size: 85px;
-  margin: 5px;
-  text-align: left;
-  word-spacing: -0.1em;
-  letter-spacing: -0.03em;
-}
-
-.backslash-purple {
-  color: #ec1e4b;
-}
-
-
-/*flex properties*/
-
-.grid {
-  display: flex;
-  margin: 0 auto;
-}
-
-.co-chairs {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 600px;
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-.executives {
-  display: flex;
-  margin: 0 auto;
-}
-
-.lms-exe {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 570px;
-  margin-left: 0px;
-}
-
-.IT-exe {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 570px;
-  margin-right: 0px;
-}
-
-.sponsor-exe {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.team-member {
-  margin: 8px;
-  border-radius: 10px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  transition: 0.3s;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  transition-property: all;
-  text-align: center;
+.App {
+  /* text-align: center; */
+  background-color: #853536;
 }
 
 .team-member:hover {
@@ -99,15 +16,16 @@ a {
   height: 150px;
 }
 
-.team-img {
-  display: block;
-  margin: 0 auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  /* border: solid #8872AB; */
-  border-bottom: solid 5px #ec1e4b;
-}
+/* .App-header {
+  background-color: #853536;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
 
 .team-img-fun {
   display: none;
@@ -172,4 +90,19 @@ a {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* NavBar{
+  background-color: #853536;
+  color: #FFF;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 180px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+body{
+  background-color: #853536;
+
 }
