@@ -1,4 +1,4 @@
-
+// JoinUs.js
 import React, { Component } from 'react';
 import Yellow from "../assets/Yellow.png";
 import Red from "../assets/Red.png";
@@ -60,8 +60,8 @@ class JoinUS extends Component {
         color: '#FFF',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', 
-        textAlign: 'center',
+        alignItems: 'center', // Align items at the center
+        textAlign: 'center', // Center text horizontally
       };
       
       const cardStyleMentor = {
@@ -74,8 +74,8 @@ class JoinUS extends Component {
         color: '#FFF',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', 
-        textAlign: 'center', 
+        alignItems: 'center', // Align items at the center
+        textAlign: 'center', // Center text horizontally
       };
       
       const cardStyleVolunteer = {
@@ -88,14 +88,17 @@ class JoinUS extends Component {
         color: '#FFF',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', 
-        textAlign: 'center',
+        alignItems: 'center', // Align items at the center
+        textAlign: 'center', // Center text horizontally
       };
 
     return (
       <>
-        <div id="joinus" style={joinUsStyle}>
-          <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl text-left font-bold">Join Us</h1>
+        {/* Join Us Section */}
+        <div style={joinUsStyle}>
+          <h1>Join Us</h1>
+
+          {/* Main Content Grid */}
           <div className="container">
             <CardGroup className="text-center">
               <Card style={cardStyleMentor}>
@@ -126,7 +129,7 @@ class JoinUS extends Component {
                     <Card.Text>
                       Come out and join us for ElleHacks 2024
                     </Card.Text>
-                  <Button variant="link" href="https://docs.google.com/forms/d/e/1FAIpQLScgC8tMJAb8RJmOTAdPYisk_pyDoVxosDGI7Bqq51Dr4AhnCQ/viewform?pli=1" style={hacker}>Become a Hacker</Button>
+                  <Button variant="link" style={hacker}>Become a Hacker</Button>
                 </Card.Body>
               </Card>
 
@@ -154,4 +157,3 @@ class JoinUS extends Component {
 }
 
 export default JoinUS;
-

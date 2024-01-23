@@ -1,19 +1,17 @@
-
 .App {
-  /* text-align: center; */
+  text-align: center;
   background-color: #853536;
 }
 
-.team-member:hover {
-  box-shadow: 4px 4px 20px 0 rgb(0, 0, 0, 40%), -4px -4px 20px 0 rgba(250, 25, 25, 0.8);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-
-/* Images */
-
-.image {
-  width: 150px;
-  height: 150px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 /* .App-header {
@@ -27,61 +25,9 @@
   color: white;
 } */
 
-.team-img-fun {
-  display: none;
-  margin: 0 auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  /* border: solid #8872AB; */
-  border-bottom: solid 5px  #ec1e4b;
+.App-link {
+  color: #61dafb;
 }
-
-.image:hover .team-img-fun {
-  display: inline;
-  margin: 1px;
-}
-
-.image:hover .team-img {
-  display: none;
-  margin: 1px;
-}
-
-
-/* Name and title */
-
-.team-name {
-  color: black;
-  font-style: normal;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.team-title {
-  color: black;
-  font-style: normal;
-  text-align: center;
-  margin-top: 4px;
-}
-
-.team-member h4 {
-  display: block;
-  font-size: 16px;
-  margin-block-start: 1.33em;
-  /* margin-block-end: 1.33em; */
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-
-/* 'Meet The Team' section end */
-
-
-/* ********************************************** */
-
-
-/* **************************************** */
 
 @keyframes App-logo-spin {
   from {
@@ -104,5 +50,4 @@ line-height: normal;
 } */
 body{
   background-color: #853536;
-
 }
